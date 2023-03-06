@@ -70,6 +70,9 @@
 }
 
 @media screen and (max-width: 980px) {
+    .navbar{
+        margin-top: 1%;
+    }
     .nav-menu {
         display: flex;
         flex-direction: column;

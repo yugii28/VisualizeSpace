@@ -28,19 +28,6 @@
   color: #61dafb;
 }
 
-.title {
-  color: white;
-  margin-top: 5%;
-  font-weight:bolder;
-  font-family: 'D-DIN Exp', sans-serif;
-  font-size: 10vh;
-}
-
-.description {
-  margin-top: 5%;
-  color: white;
-  
-}
 
 @keyframes App-logo-spin {
   from {
