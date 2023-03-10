@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import "./Navbar.css";
+import "./CSS/Navbar.css";
 import {NavLink} from "react-router-dom";
 import styled from 'styled-components';
 
 function Navbar(){
     const [click, setClick] = useState(false);
-    
+
     const handleClick = () => setClick(!click);
     return (
     <>
@@ -28,8 +28,8 @@ function Navbar(){
           </li>
 
           <li className = "nav-item">
-            <StyledNavLink to = "/joinus" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
-              Join Us
+            <StyledNavLink to = "/satellite-images" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
+              APOD
             </StyledNavLink>
           </li>
           
@@ -57,7 +57,7 @@ const StyledNavLink = styled(NavLink)`
   &:hover {
     text-emphasis: none;
     text-decoration: none;
-    color: black;
+    color: white;
   }
 `;
 

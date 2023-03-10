@@ -1,5 +1,6 @@
-.container {
+.i-container {
     width: 80%;
+    margin: auto;
   }
   
   .title {
@@ -77,6 +78,7 @@
   .text-container {
     width: 90%;
     margin: auto;
+    color: black;
   }
   
   .material-symbols-outlined {

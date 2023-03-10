@@ -1,0 +1,182 @@
+.container {
+    color: white;
+    background-image: none;
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: rgb(250, 250, 225);
+}
+
+.satellite-image {
+    aspect-ratio: 1/1;
+}
+
+.input-container {
+    padding-top: 5%;
+}
+
+.year-input {
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 1% 6%;   
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.month-input {
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 1% 6%;   
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.day-input {
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 1% 6%;
+}
+
+.text {
+    color: black;
+    display: inline-block;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+
+.s-image {
+    width: 50%;
+    margin-top: 3%;
+    height: auto;
+    margin-bottom: 3%;
+    border-radius: 30px;
+}
+
+.q {
+    width: 50%;
+    margin-top: 3%;
+    background-color: lightcoral;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: black;
+}
+
+
+.submit-button {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding: 5px 15px;
+    background-color: rgb(37, 192, 37);
+    font-family: 'Tilt Warp', cursive;
+    margin-right: 0px;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: green;
+}
+
+  /* code for modal */
+  .modal {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+  }
+
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    border: 1px solid #888;
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  .text-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .description-container {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: black;
+  }
+
+@media only screen and (max-width: 800px) {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        display: inline-block;
+    }
+
+    .year-input {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        padding: 1% 6%;   
+        margin-left: 10px; 
+    }
+
+    .month-input {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .lat-input {
+        padding: 1% 6%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .modal-content {
+        margin-top: 20%;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .s-image {
+        width: 100%;
+    }
+
+    .q {
+        width: 100%;
+    }
+}

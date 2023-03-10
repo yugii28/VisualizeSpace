@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css"
+import "./CSS/HomePage.css"
 import { useState } from "react";
 
 function HomePage(){
@@ -7,17 +7,15 @@ function HomePage(){
     const [isOpen, setisOpen] = useState(false);
 
     const handleClick = () => {
-        document.body.style.overflow = "hidden";
         setisOpen(true);
     }
 
     const handleClose = () => {
-        document.body.style.overflow = "auto";
         setisOpen(false);
     }
 
     return (
-        <div className = "container">
+        <div className = "i-container">
             {!isOpen && (
                 <div>
             <h1 className = 'title'>SPACE</h1>
@@ -25,8 +23,8 @@ function HomePage(){
 
             <div className = "three-cards-container">
                 <div className = "first-card">
-                    <h4>Asteroid locations</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4>Picture of the day</h4>
+                    <p>Enter any date and we will provide you NASA's astronomy picture of the day from that date as well as a description</p>
                 </div>
                 <div className = "second-card">
                     <h4>Rocket speeds</h4>
