@@ -20,7 +20,7 @@ function HomePage(){
             {!isOpen && (
                 <div>
             <h1 className = 'title'>SPACE</h1>
-            <h2 className = 'description'>All your information about space. Right here.</h2>
+            <h2 className = 'heading-description'>All your information about space. Right here.</h2>
 
             <div className = "three-cards-container">
                 <div className = "first-card">
