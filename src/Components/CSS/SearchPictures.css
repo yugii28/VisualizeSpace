@@ -114,5 +114,10 @@
 
     .card-text-container {
         margin: auto;
+        width: 90%;
+    }
+
+    .flip-card-back-1, .flip-card-back-2 {
+        width: 100%;
     }
 }
