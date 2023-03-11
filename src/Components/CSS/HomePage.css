@@ -120,17 +120,20 @@
       border-right: none;
       color: white;
       font-family: 'Barlow', 'sans-serif';
+      width: 100%;
     }
   
     .second-card {
       border-right: none;
       font-family: 'Barlow', 'sans-serif';
+      width: 100%;
     }
   
     .third-card {
       border-right: none;
       font-family: 'Barlow', 'sans-serif';
       height: 14vh;
+      width: 100%;
     }
 
     .get-started-button {

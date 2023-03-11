@@ -105,7 +105,7 @@ function SearchPictures(){
                                     <div class="flip-card-back-1">
                                         <div className="card-text-container">
                                             <h3 style = {{textDecoration: "underline"}}>{titleOne}</h3> 
-                                            <p>{descriptionOne}</p> 
+                                            <p className="description">{descriptionOne}</p> 
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ function SearchPictures(){
                                     <div class="flip-card-back-2">
                                         <div className="card-text-container">
                                             <h3 style = {{textDecoration: "underline"}}>{titleTwo}</h3> 
-                                            <p>{descriptionTwo}</p>  
+                                            <p className="description">{descriptionTwo}</p>  
                                         </div>
                                     </div>                 
                                 </div>  
