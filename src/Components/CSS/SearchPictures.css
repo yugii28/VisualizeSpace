@@ -1,0 +1,102 @@
+.user-input {
+    padding: 1% 6%;
+    margin: auto;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-one {
+    border-radius: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 90%;
+}
+
+.image-two {
+    border-radius: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 90%;
+}
+
+.first-image {
+    width: 50%;
+}
+
+.second-image {
+    width: 50%;
+}
+
+.flip-card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.first-image:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.second-image:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back-1, .flip-card-back-2 {
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-back-1, .flip-card-back-2 {
+    transform: rotateY(180deg);
+    background-color: lightcoral;
+    color: black;
+}
+
+.flip-card-back-1 {
+    position: absolute;
+    top: 4%;
+    width: 95%;
+    border-radius: 30px;
+    bottom: 4%;
+}
+
+.flip-card-back-2 {
+    position: absolute;
+    top: 4%;
+    width: 95%;
+    border-radius: 30px;
+    bottom: 4%;
+    left: 4%;
+}
+
+.card-text-container {
+    width: 90%;
+    margin: auto;
+    font-family: 'Barlow', 'sans-serif';
+}
+
+@media only screen and (max-width: 800px) {
+    .image-container {
+        flex-direction: column;
+    }
+
+    .first-image {
+        width: 100%;
+    }
+    
+    .second-image {
+        width: 100%;
+    }
+    
+    
+    .image-one {
+        width: 100%;
+    }
+
+    .image-two {
+        width: 100%;
+    }
+
+}

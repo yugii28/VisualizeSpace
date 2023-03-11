@@ -12,7 +12,7 @@
 }
 
 .input-container {
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 .year-input {
@@ -77,6 +77,7 @@
     background-color: rgb(37, 192, 37);
     font-family: 'Tilt Warp', cursive;
     margin-right: 0px;
+    margin-bottom: 2%;
 }
 
 .submit-button:hover{

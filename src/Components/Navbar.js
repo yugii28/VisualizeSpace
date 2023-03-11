@@ -28,14 +28,14 @@ function Navbar(){
           </li>
 
           <li className = "nav-item">
-            <StyledNavLink to = "/satellite-images" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
+            <StyledNavLink to = "/apod" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
               APOD
             </StyledNavLink>
           </li>
           
           <li className = "nav-item">
-            <StyledNavLink to = "/contact" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
-              Contact
+            <StyledNavLink to = "/search-pictures" activeClassName = "active" className = "nav-links" onClick = {handleClick}>
+              Search pictures
             </StyledNavLink>
           </li>
         </ul>

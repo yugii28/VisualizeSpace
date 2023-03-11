@@ -17,15 +17,18 @@
   }
   
   .first-card{
-    flex-grow: 1;
+    width: 33%;
     height: 20vh;
     border-right: 1px white solid;
     color: white;
     font-family: 'Barlow', 'sans-serif';
+    padding-right: 1%;
   }
   
   .second-card{
-    flex-grow: 1;
+    width: 33%;
+    padding-right: 1%;
+    padding-left: 1%;
     height: 20vh;
     border-right: 1px white solid;
     color: white;
@@ -33,7 +36,8 @@
   }
   
   .third-card{
-    flex-grow: 1;
+    width: 33%;
+    padding-left: 1%;
     height: 20vh;
     color: white;
     font-family: 'Barlow', 'sans-serif';

@@ -1,9 +1,9 @@
 import React from "react";
-import "./CSS/Landsat.css"
+import "./CSS/APOD.css"
 import { useEffect, useState } from "react";
 import InfoButton from "./InfoButton";
 
-function Landsat(){
+function APOD(){
     const [image, setImage] = useState();
     const [imageReturned, setImageReturned] = useState(false);
     const [year, setYear] = useState();
@@ -11,8 +11,6 @@ function Landsat(){
     const [day, setDay] = useState();
     const [is_there_error, setIsThereError] = useState(false);
     const [description, setDescripton] = useState();
-    const [showInfo, setShowInfo] = useState(false);
-    const toggleInfo = () => setShowInfo(!showInfo);
 
     const handleYearChange = (event) => {
         setYear(event.target.value)
@@ -60,7 +58,7 @@ function Landsat(){
                 <div className="container">
                     <div className = "input-container">
                         <h4 className="text">Enter any date and we will show you NASA's astronomy picture of the day from that date!</h4>
-                        <InfoButton info="Note to AggieWorks: This API only contains images from 1995 and onwards. Try entering in 1995 to see an error message :)" />
+                        <InfoButton info="Note to AggieWorks: This API only contains images from 1995 and onwards. Try entering in 1994 to see an error message :)" />
                         <form onSubmit = {callApi}>
                             <input className="year-input" value = {year} placeholder = "Enter year" onChange = {handleYearChange}/>
                             <input className="month-input" value = {month} placeholder = "Enter month" onChange = {handleMonthChange}/>
@@ -95,4 +93,4 @@ function Landsat(){
     )
 }
 
-export default Landsat;
+export default APOD;

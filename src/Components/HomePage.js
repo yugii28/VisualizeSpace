@@ -1,6 +1,7 @@
 import React from "react";
 import "./CSS/HomePage.css"
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function HomePage(){
 
@@ -27,12 +28,12 @@ function HomePage(){
                     <p>Enter any date and we will provide you NASA's astronomy picture of the day from that date as well as a description</p>
                 </div>
                 <div className = "second-card">
-                    <h4>Rocket speeds</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h4>Search pictures</h4>
+                    <p>Want to know how the Apollo 11 mission or a supernova looks? Enter a term and we'll show you how it looks!</p>
                 </div> 
                 <div className = "third-card">
-                    <h4>The Fireball</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4>Asteroid locations</h4>
+                    <p>Want to know how objects in space are moving? We have all the information and can visualize it!</p>
                 </div>
             </div>
             <button onClick = {handleClick} className = "get-started-button">Get Started Here</button>
@@ -43,14 +44,12 @@ function HomePage(){
                     <div className="modal-content">
                         <span class="material-symbols-outlined" onClick={handleClose}>close</span>
                         <div className = "text-container">
-                            <p>Hi! Welcome to Space Visualizer. If you'd like to know more about all the information we offer, please click here.</p>
+                            <p>Hi! Welcome to Space Visualizer. Feel free to browse through the following links:</p>
                             <br></br>
-                            <p>Otherwise, feel free to browse through the following links:</p>
-                            <p>Lorem</p>
-                            <p>Lorem</p>
-                            <p>Lorem</p>
-                            <p>Lorem</p>
-
+                            <Link to = "/apod">Find the astronomy picture of the day of any day since 1996!</Link>
+                            <br></br>
+                            <br></br>
+                            <Link to = "/search-pictures">Enter any space term and we will show you how it looks!</Link>
                         </div>
                     </div>
                 </div>
