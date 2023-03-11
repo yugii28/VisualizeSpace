@@ -110,8 +110,6 @@
   .description-container {
     width: 90%;
     margin: auto;
-    align-items: center;
-    display: flex;
     margin-top: 4%;
     margin-bottom: 4%;
   }
